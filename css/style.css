@@ -1,1 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero {
+    background:  linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('../assets/hero-bg.png');
+    height: 652px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero_content {
+   width: 726.33px;
+}
+
+#hero .hero_content .subtitle {
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+
+}
+
+#hero .hero_content .title {
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#hero .hero_content .description {
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 13px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
